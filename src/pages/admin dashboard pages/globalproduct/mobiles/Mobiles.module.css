@@ -1,0 +1,255 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #000;
+  color: #fff;
+  padding: 5px;
+}
+
+.header img {
+  height: 80px;
+  object-fit: contain;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.user_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.user_box h3 {
+  margin: 0 30px;
+  font-family: cursive;
+}
+.user_box h4 {
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+
+.info Button {
+  background: red !important;
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.info Button:hover {
+  background: transparent !important;
+  color: red !important;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.card:nth-of-type(1) {
+  background: url("http://blog.obejor.com.ng/wp-content/uploads/2020/03/iphone-evolution.png") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  margin: 10px;
+  margin-right: 50px;
+  width: 300px;
+  height: 150px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 5px 2px 0 #000000a2, 5px 3px 0 #0000009a, 5px 3px 0 #0000009a;
+}
+.card:nth-of-type(1):hover::before {
+  content: "iphone";
+  position: absolute;
+  display: grid;
+  place-items: center;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  color: #000000d5;
+  text-transform: capitalize;
+  background: #ffffff49;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.card:nth-of-type(2) {
+  background: url("https://assets.mspimages.in/wp-content/uploads/2021/03/Xiaomi-Redmi-New-Mobile-Phones-Launched-in-2021.png") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  margin: 10px;
+  width: 300px;
+  height: 150px;
+  margin-right: 50px;
+  cursor: pointer;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 5px 2px 0 #000000a2, 5px 3px 0 #0000009a, 5px 3px 0 #0000009a;
+}
+
+.card:nth-of-type(2):hover::before {
+  content: "mi";
+  position: absolute;
+  display: grid;
+  place-items: center;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  color: #000000d5;
+  text-transform: capitalize;
+  background: #ffffff49;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 15px;
+}
+.card:nth-of-type(3) {
+  background: url("https://static1.anpoimages.com/wordpress/wp-content/uploads/2019/12/Every-other-OnePlus-phone.jpg") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  margin: 10px;
+  width: 300px;
+  height: 150px;
+  margin-right: 50px;
+  cursor: pointer;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 5px 2px 0 #000000a2, 5px 3px 0 #0000009a;
+}
+
+.card:nth-of-type(3):hover::before {
+  content: "oneplus";
+  position: absolute;
+  display: grid;
+  place-items: center;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  color: #000000d5;
+  text-transform: capitalize;
+  background: #615a5a49;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.card:nth-of-type(4) {
+  background: url("https://cdn.pocket-lint.com/r/s/1200x/assets/images/152038-phones-news-pocophone-f2-image1-uymsbohrjf.jpg") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  margin: 10px;
+  width: 300px;
+  height: 150px;
+  margin-right: 50px;
+  cursor: pointer;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 5px 2px 0 #000000a2, 5px 3px 0 #0000009a;
+}
+
+.card:nth-of-type(4):hover::before {
+  content: "poco";
+  position: absolute;
+  display: grid;
+  place-items: center;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  color: #000000d5;
+  text-transform: capitalize;
+  background: #615a5a49;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.card:nth-of-type(5) {
+  background: url("https://i.ytimg.com/vi/cYq1uHfO2xQ/maxresdefault.jpg") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  margin: 10px;
+  width: 300px;
+  height: 150px;
+  margin-right: 50px;
+  cursor: pointer;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 5px 2px 0 #000000a2, 5px 3px 0 #0000009a;
+}
+
+.card:nth-of-type(5):hover::before {
+  content: "realme";
+  position: absolute;
+  display: grid;
+  place-items: center;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  color: #000000d5;
+  text-transform: capitalize;
+  background: #615a5a49;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.card:nth-of-type(6) {
+  background: url("https://www.oneodisha.tv/wp-content/uploads/2021/01/Unpacked-2021-Camera-History_Thumb728.jpg") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  margin: 10px;
+  width: 300px;
+  height: 150px;
+  margin-right: 50px;
+  cursor: pointer;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 5px 2px 0 #000000a2, 5px 3px 0 #0000009a;
+}
+
+.card:nth-of-type(6):hover::before {
+  content: "samsung";
+  position: absolute;
+  display: grid;
+  place-items: center;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  color: #000000d5;
+  text-transform: capitalize;
+  background: #615a5a49;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 15px;
+}

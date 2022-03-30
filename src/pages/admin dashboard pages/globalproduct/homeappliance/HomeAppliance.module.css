@@ -1,0 +1,255 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #000;
+  color: #fff;
+  padding: 5px;
+}
+
+.header img {
+  height: 80px;
+  object-fit: contain;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.user_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.user_box h3 {
+  margin: 0 30px;
+  font-family: cursive;
+}
+.user_box h4 {
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+
+.info Button {
+  background: red !important;
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.info Button:hover {
+  background: transparent !important;
+  color: red !important;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.card:nth-of-type(1) {
+  background: url("https://3.bp.blogspot.com/-NqMheYG3bWI/VvTyPICRBlI/AAAAAAAAqJk/je2LTtQdQCYvbCuA018QrQdWn3jUbZAGg/s1600/Air%2Bconditioners%2Bon%2Bdisplay.jpg") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  margin: 10px;
+  margin-right: 50px;
+  width: 300px;
+  height: 150px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 5px 2px 0 #000000a2, 5px 3px 0 #0000009a, 5px 3px 0 #0000009a;
+}
+.card:nth-of-type(1):hover::before {
+  content: "ac";
+  position: absolute;
+  display: grid;
+  place-items: center;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  color: #000000d5;
+  text-transform: capitalize;
+  background: #ffffff49;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.card:nth-of-type(2) {
+  background: url("https://toofanfans.com/img/new-updated-photos/ceiling-fan-group.png") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  margin: 10px;
+  width: 300px;
+  height: 150px;
+  margin-right: 50px;
+  cursor: pointer;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 5px 2px 0 #000000a2, 5px 3px 0 #0000009a, 5px 3px 0 #0000009a;
+}
+
+.card:nth-of-type(2):hover::before {
+  content: "fan";
+  position: absolute;
+  display: grid;
+  place-items: center;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  color: #000000d5;
+  text-transform: capitalize;
+  background: #ffffff49;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 15px;
+}
+.card:nth-of-type(3) {
+  background: url("https://d12mivgeuoigbq.cloudfront.net/magento-media/2020/types-of-refrigerators.jpg") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  margin: 10px;
+  width: 300px;
+  height: 150px;
+  margin-right: 50px;
+  cursor: pointer;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 5px 2px 0 #000000a2, 5px 3px 0 #0000009a;
+}
+
+.card:nth-of-type(3):hover::before {
+  content: "fridge";
+  position: absolute;
+  display: grid;
+  place-items: center;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  color: #000000d5;
+  text-transform: capitalize;
+  background: #615a5a49;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.card:nth-of-type(4) {
+  background: url("https://pngimg.com/uploads/microwave/microwave_PNG101673.png") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  margin: 10px;
+  width: 300px;
+  height: 150px;
+  margin-right: 50px;
+  cursor: pointer;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 5px 2px 0 #000000a2, 5px 3px 0 #0000009a;
+}
+
+.card:nth-of-type(4):hover::before {
+  content: "oven";
+  position: absolute;
+  display: grid;
+  place-items: center;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  color: #000000d5;
+  text-transform: capitalize;
+  background: #615a5a49;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.card:nth-of-type(5) {
+  background: url("https://thumbs.dreamstime.com/b/moscow-russia-january-modern-tvs-samsung-brand-store-137929310.jpg") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  margin: 10px;
+  width: 300px;
+  height: 150px;
+  margin-right: 50px;
+  cursor: pointer;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 5px 2px 0 #000000a2, 5px 3px 0 #0000009a;
+}
+
+.card:nth-of-type(5):hover::before {
+  content: "tv";
+  position: absolute;
+  display: grid;
+  place-items: center;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  color: #000000d5;
+  text-transform: capitalize;
+  background: #615a5a49;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.card:nth-of-type(6) {
+  background: url("https://onsitego.com/blog/wp-content/uploads/2016/12/21DC-WASHERS-facebookJumbo.jpg") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  margin: 10px;
+  width: 300px;
+  height: 150px;
+  margin-right: 50px;
+  cursor: pointer;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 5px 2px 0 #000000a2, 5px 3px 0 #0000009a;
+}
+
+.card:nth-of-type(6):hover::before {
+  content: "washing machine";
+  position: absolute;
+  display: grid;
+  place-items: center;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  color: #000000d5;
+  text-transform: capitalize;
+  background: #615a5a49;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 15px;
+}

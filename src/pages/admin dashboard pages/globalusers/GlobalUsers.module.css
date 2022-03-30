@@ -1,0 +1,152 @@
+.del {
+  cursor: pointer;
+}
+
+.del:hover {
+  color: red;
+}
+
+.edt {
+  cursor: pointer;
+}
+
+.edt:hover {
+  color: blue;
+}
+
+.content {
+  display: flex;
+  background: black;
+  color: whitesmoke;
+  align-items: center;
+}
+
+.content img {
+  display: flex;
+  flex: 0.2;
+  height: 80px;
+  object-fit: contain;
+  margin-left: 30px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+/* .content h1 {
+  display: flex;
+  flex: 0.25;
+  margin-left: 30px;
+  letter-spacing: 1px;
+  font-family: cursive;
+} */
+
+.content .inputs {
+  display: flex;
+  align-items: center;
+  flex: 0.5;
+  background: whitesmoke;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  height: 45px;
+}
+.content input {
+  display: flex;
+  flex: 1;
+  padding: 15px;
+  background: rgba(128, 128, 128, 0.568);
+  border: none;
+  outline: none;
+  border-radius: 15px 0 0 15px;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.content Button {
+  color: #000;
+  background: whitesmoke;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 15px 0 0 15px;
+}
+
+.content Button:hover {
+  color: #000;
+  background: whitesmoke;
+}
+
+.boxes {
+  width: 400px;
+  background: whitesmoke;
+  position: fixed;
+  top: 25%;
+  left: 35%;
+  box-shadow: -1px 3px 6px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow-wrap: break-word;
+}
+
+.uploadBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.input label {
+  margin-right: 30px;
+}
+
+.input input {
+  display: flex;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 15px;
+  background: rgba(128, 128, 128, 0.568);
+  width: 300px;
+  margin: 10px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.boxes Button:nth-of-type(1) {
+  background: blue;
+  margin-right: 20px;
+  color: whitesmoke;
+  font-weight: 600;
+}
+
+.boxes Button:nth-of-type(1):hover {
+  background: transparent;
+  color: blue;
+}
+
+.boxes Button:nth-of-type(2) {
+  background: red;
+
+  color: whitesmoke;
+}
+
+.boxes Button:nth-of-type(2):hover {
+  background: transparent;
+  color: red;
+}

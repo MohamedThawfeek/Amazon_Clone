@@ -1,0 +1,288 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #000;
+  color: #fff;
+  padding: 5px;
+}
+
+.header img {
+  height: 80px;
+  object-fit: contain;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.user_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.user_box h3 {
+  margin: 0 30px;
+  font-family: cursive;
+}
+.user_box h4 {
+  margin-top: 5px;
+  text-transform: uppercase;
+}
+
+.info Button {
+  background: red !important;
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.info Button:hover {
+  background: transparent !important;
+  color: #fff !important;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.card:nth-of-type(1) {
+  background: url("https://www.dawsoncollege.qc.ca/news/wp-content/uploads/sites/130/image1.jpeg") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  margin: 10px;
+  margin-right: 50px;
+  width: 300px;
+  height: 150px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 5px 2px 0 #000000a2, 5px 3px 0 #0000009a, 5px 3px 0 #0000009a;
+}
+.card:nth-of-type(1):hover::before {
+  content: "books";
+  position: absolute;
+  display: grid;
+  place-items: center;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  color: #000000d5;
+  text-transform: capitalize;
+  background: #ffffff49;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.card:nth-of-type(2) {
+  background: url("https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c03962709.png") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  margin: 10px;
+  width: 300px;
+  height: 150px;
+  margin-right: 50px;
+  cursor: pointer;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 5px 2px 0 #000000a2, 5px 3px 0 #0000009a, 5px 3px 0 #0000009a;
+}
+
+.card:nth-of-type(2):hover::before {
+  content: "computers";
+  position: absolute;
+  display: grid;
+  place-items: center;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  color: #000000d5;
+  text-transform: capitalize;
+  background: #ffffff49;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 15px;
+}
+.card:nth-of-type(3) {
+  background: url("https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Ubisoft_coming_to_Xbox_Game_Pass.jpg") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  margin: 10px;
+  width: 300px;
+  height: 150px;
+  margin-right: 50px;
+  cursor: pointer;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 5px 2px 0 #000000a2, 5px 3px 0 #0000009a;
+}
+
+.card:nth-of-type(3):hover::before {
+  content: "games";
+  position: absolute;
+  display: grid;
+  place-items: center;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  color: #000000d5;
+  text-transform: capitalize;
+  background: #615a5a49;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.card:nth-of-type(4) {
+  background: url("https://img3.exportersindia.com/product_images/bc-full/dir_164/4909789/grocery-items-1506570477-3361265.png") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  margin: 10px;
+  width: 300px;
+  height: 150px;
+  margin-right: 50px;
+  cursor: pointer;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 5px 2px 0 #000000a2, 5px 3px 0 #0000009a;
+}
+
+.card:nth-of-type(4):hover::before {
+  content: "grocerry";
+  position: absolute;
+  display: grid;
+  place-items: center;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  color: #000000d5;
+  text-transform: capitalize;
+  background: #615a5a49;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.card:nth-of-type(5) {
+  background: url("https://media.istockphoto.com/photos/set-of-home-kitchen-appliances-in-the-room-on-the-wall-background-picture-id1196974664?k=20&m=1196974664&s=612x612&w=0&h=9PNuGOYbsj7J2DTPA8J6kTJUoRHKHLAyUmhRgCdYXVE=") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  margin: 10px;
+  width: 300px;
+  height: 150px;
+  margin-right: 50px;
+  cursor: pointer;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 5px 2px 0 #000000a2, 5px 3px 0 #0000009a;
+}
+
+.card:nth-of-type(5):hover::before {
+  content: "home Appliance";
+  position: absolute;
+  display: grid;
+  place-items: center;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  color: #000000d5;
+  text-transform: capitalize;
+  background: #615a5a49;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.card:nth-of-type(6) {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlxGytOvKqQLSxLpEyG2AgeZoU4tsA6PcIyldNRF4FBNprz6dszTPfYygtDX26vaa4YC0&usqp=CAU") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  margin: 10px;
+  width: 300px;
+  height: 150px;
+  margin-right: 50px;
+  cursor: pointer;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 5px 2px 0 #000000a2, 5px 3px 0 #0000009a;
+}
+
+.card:nth-of-type(6):hover::before {
+  content: "mobiles";
+  position: absolute;
+  display: grid;
+  place-items: center;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  color: #000000d5;
+  text-transform: capitalize;
+  background: #615a5a49;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.card:nth-of-type(7) {
+  background: url("https://i.ytimg.com/vi/zlT-Lg_QFTA/maxresdefault.jpg") !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  margin: 10px;
+  width: 300px;
+  height: 150px;
+  margin-right: 50px;
+  cursor: pointer;
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 5px 2px 0 #000000a2, 5px 3px 0 #0000009a;
+}
+
+.card:nth-of-type(7):hover::before {
+  content: "softwares";
+  position: absolute;
+  display: grid;
+  place-items: center;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: cursive;
+  color: #000000d5;
+  text-transform: capitalize;
+  background: #615a5a49;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 15px;
+}

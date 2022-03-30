@@ -1,0 +1,349 @@
+.header {
+  background: #111;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: whitesmoke;
+  justify-content: space-between;
+}
+
+.header img {
+  object-fit: contain;
+  width: 150px;
+  display: flex;
+  flex: 0.2;
+  margin-left: auto;
+  margin-right: 10px;
+  padding: 0 20px;
+}
+
+.inputArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  background: whitesmoke;
+  height: 40px;
+  overflow: hidden;
+}
+
+.inputArea input {
+  width: 100%;
+  height: 40px;
+  padding: 15px;
+  outline: none;
+  border: none;
+}
+
+.inputArea .search {
+  height: 40px;
+  width: 10%;
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  background: #ecb62e;
+  color: #111;
+  margin: 0 !important;
+}
+
+.headerOption {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+.info p {
+  font-size: 12px;
+  padding: 3px 0;
+  margin: 0 !important;
+}
+
+.info .signout {
+  margin-right: auto !important;
+  color: whitesmoke !important;
+  background: transparent !important;
+  cursor: pointer !important;
+  border: none !important;
+  outline: none !important;
+  margin: 0 !important;
+}
+
+.info .signout:hover {
+  background: transparent !important;
+}
+
+.pages {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+}
+
+.pages p {
+  font-size: 12px;
+  padding: 3px 0;
+  margin: 0 !important;
+}
+
+.pages b {
+  font-size: small;
+}
+
+.basket {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  margin: 0 10px;
+}
+
+.basket p {
+  font-size: 14px;
+  margin: 0 !important;
+  font-weight: 600;
+  margin-left: 8px !important;
+}
+
+.cardCollection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px;
+}
+
+.cards {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 40px;
+  height: 350px;
+  position: relative;
+  width: 18rem;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 12px !important;
+  box-shadow: -8px 12px 15px rgba(0, 0, 0, 0.8);
+}
+
+.cards::before {
+  content: "";
+  position: absolute;
+  background: #36333371;
+  width: 100%;
+  height: 100%;
+}
+
+.cards:hover::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: 100ms ease-in-out;
+}
+
+.cards Button {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 150px !important;
+  letter-spacing: 1px;
+  text-shadow: 2px 0 3px rgba(0, 0, 0, 0.8);
+  z-index: 1 !important;
+}
+
+.cards:nth-of-type(1) Button {
+  background: green !important;
+  color: whitesmoke !important;
+}
+.cards:nth-of-type(2) Button {
+  background: red !important;
+  color: whitesmoke !important;
+}
+
+.cards:nth-of-type(3) Button {
+  background: black !important;
+  color: whitesmoke !important;
+}
+
+.cards:nth-of-type(4) Button {
+  background: blue !important;
+  color: whitesmoke !important;
+}
+
+.cards:nth-of-type(5) Button {
+  background: lightgray !important;
+  color: black !important;
+}
+
+.cards:nth-of-type(6) Button {
+  background: cyan !important;
+  color: whitesmoke !important;
+}
+
+.cards:nth-of-type(7) Button {
+  background: yellow !important;
+  color: black !important;
+}
+
+.cards Button:hover {
+  outline: none !important;
+  border: none !important;
+  background: transparent !important;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.cards:nth-of-type(1) {
+  background-image: url("https://media.istockphoto.com/photos/books-on-display-in-the-corner-of-a-second-hand-bookstore-picture-id1129874863?b=1&k=20&m=1129874863&s=170667a&w=0&h=FTGHLcHTwhBCwYVQ-P4pJgrkIbwK0Kh94aYOUxTBRmg=") !important;
+}
+
+.cards:nth-of-type(2) {
+  background-image: url("https://previews.123rf.com/images/niloo138/niloo1381512/niloo138151200005/53740848-los-videojuegos-en-la-exhibici%C3%B3n-en-una-tienda-de-juegos.jpg") !important;
+}
+
+.cards:nth-of-type(3) {
+  background-image: url("https://bestinau.com.au/wp-content/uploads/2019/09/Best-Computer-Stores-in-Canberra-1024x679.jpg") !important;
+}
+
+.cards:nth-of-type(4) {
+  background-image: url("https://retailinsider.b-cdn.net/wp-content/uploads/2020/03/shutterstock_373602469.jpg") !important;
+}
+
+.cards:nth-of-type(5) {
+  background-image: url("https://www.tasteofhome.com/wp-content/uploads/2018/11/ovens-at-an-appliance-store-shutterstock_372122377.jpg?fit=700,668") !important;
+}
+
+.cards:nth-of-type(6) {
+  background-image: url("https://media.istockphoto.com/photos/smartphones-on-the-counter-of-a-electronics-store-picture-id1138251272?k=20&m=1138251272&s=612x612&w=0&h=ajF0OuxTslr8Z79CJqS0nG9JTTbOuBGfrKnuIzmsgGs=") !important;
+}
+
+.cards:nth-of-type(7) {
+  background-image: url("https://tribune.net.ph/wp-content/uploads/2019/10/piracy.jpg") !important;
+}
+
+@media (max-width: 518px) {
+  .cardCollection {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .cards {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    height: 350px;
+    display: grid;
+    place-items: center;
+    position: relative;
+    width: 15rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header img {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+  }
+
+  .inputArea {
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+  }
+
+  .inputArea button {
+    width: 13%;
+  }
+
+  .headerOption {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+  }
+
+  .basket p {
+    margin-left: 8px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .cardCollection {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .cards {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    height: 350px;
+    display: grid;
+    place-items: center;
+    position: relative;
+    width: 15rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header img {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+  }
+
+  .inputArea {
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+  }
+
+  .inputArea button {
+    width: 13%;
+  }
+
+  .headerOption {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 85%;
+  }
+
+  .basket p {
+    margin-left: 8px !important;
+  }
+}
