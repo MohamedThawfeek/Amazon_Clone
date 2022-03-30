@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  margin-left: 50px;
+}
+
+.cards {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  margin: 15px 30px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: -8px 12px 15px rgba(0, 0, 0, 0.8);
+  position: relative;
+  cursor: pointer;
+}
+
+.productImage {
+  object-fit: contain;
+  height: 250px;
+  padding: 5px;
+}
+
+.productName {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+strong {
+  color: red;
+  text-shadow: 2px 0 2px rgba(0, 0, 0, 0.8);
+  letter-spacing: 1px;
+}
+
+.price {
+  padding: 3px;
+  color: green;
+  text-shadow: 2px 0 2px rgba(0, 0, 0, 0.8);
+  margin-left: 10px;
+}
+
+.productPrice {
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+.cartButton {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  width: 95% !important;
+  background: #ecb62e !important;
+  color: #111 !important;
+  font-weight: 600 !important;
+  text-transform: capitalize !important;
+  position: absolute !important;
+  bottom: 15px !important;
+  right: 7px !important;
+  padding: 5px !important;
+}
+
+.cartButton:hover {
+  background: #ecb62e !important ;
+  color: #fff !important ;
+}
+
+.weight {
+  display: block;
+  background: transparent;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+  text-transform: uppercase !important;
+  margin-right: 20px !important;
+}
+
+@media (max-width: 750px) {
+  .container {
+    display: flex;
+    align-items: center;
+  }
+}
